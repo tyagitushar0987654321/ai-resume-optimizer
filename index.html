@@ -243,6 +243,26 @@
             margin-bottom: 15px;
         }
 
+        .privacy-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .privacy-card h3 {
+            margin-top: 0;
+        }
+
+        .privacy-card ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .privacy-card li {
+            margin-bottom: 8px;
+        }
+
         .footer {
             text-align: center;
             color: rgba(255,255,255,0.8);
@@ -344,11 +364,81 @@
             </div>
         </div>
 
+        <!-- Privacy & Security Section -->
+        <div class="main-card" style="margin-top: 40px;" id="privacy-section">
+            <h2 style="color: #667eea; text-align: center; margin-bottom: 30px;">🔒 Privacy & Data Security</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+                <div class="privacy-card">
+                    <h3 style="color: #27ae60; margin-bottom: 15px;">🛡️ Data Protection</h3>
+                    <ul style="line-height: 1.8; color: #555;">
+                        <li><strong>Client-Side Processing:</strong> All resume analysis happens directly in your browser</li>
+                        <li><strong>No Server Upload:</strong> Your files never leave your device</li>
+                        <li><strong>Zero Data Storage:</strong> We don't store, save, or cache any personal information</li>
+                        <li><strong>Session-Only Memory:</strong> Data is cleared when you close the browser</li>
+                    </ul>
+                </div>
+
+                <div class="privacy-card">
+                    <h3 style="color: #667eea; margin-bottom: 15px;">🔐 Security Measures</h3>
+                    <ul style="line-height: 1.8; color: #555;">
+                        <li><strong>HTTPS Encryption:</strong> All connections are encrypted using SSL/TLS</li>
+                        <li><strong>Local Processing:</strong> Files processed entirely on your device</li>
+                        <li><strong>No Third-Party APIs:</strong> No external AI services receive your data</li>
+                        <li><strong>Browser Isolation:</strong> Data isolated within your browser session</li>
+                    </ul>
+                </div>
+
+                <div class="privacy-card">
+                    <h3 style="color: #e74c3c; margin-bottom: 15px;">🚫 What We DON'T Do</h3>
+                    <ul style="line-height: 1.8; color: #555;">
+                        <li><strong>No Data Collection:</strong> We don't collect personal information</li>
+                        <li><strong>No File Storage:</strong> Resumes are not saved anywhere</li>
+                        <li><strong>No Third-Party Sharing:</strong> Your data stays completely private</li>
+                        <li><strong>No Tracking:</strong> We don't track user behavior or analytics</li>
+                    </ul>
+                </div>
+
+                <div class="privacy-card">
+                    <h3 style="color: #f39c12; margin-bottom: 15px;">⚡ How It Works</h3>
+                    <ul style="line-height: 1.8; color: #555;">
+                        <li><strong>Upload:</strong> File stays in your browser's memory</li>
+                        <li><strong>Process:</strong> JavaScript analyzes content locally</li>
+                        <li><strong>Optimize:</strong> AI algorithms run on your device</li>
+                        <li><strong>Clear:</strong> All data removed when page is refreshed</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="background: #e8f5e8; border: 1px solid #27ae60; border-radius: 10px; padding: 20px; margin-top: 25px; text-align: center;">
+                <h4 style="color: #27ae60; margin-bottom: 10px;">✅ 100% Privacy Guarantee</h4>
+                <p style="color: #555; margin: 0; line-height: 1.6;">
+                    <strong>Your resume content is completely safe.</strong> This tool works entirely in your browser without any server-side processing. 
+                    Your sensitive information never leaves your device, ensuring complete privacy and security.
+                </p>
+            </div>
+
+            <div style="background: #f0f0ff; border: 1px solid #667eea; border-radius: 10px; padding: 20px; margin-top: 20px;">
+                <h4 style="color: #667eea; margin-bottom: 10px;">🔬 Technical Implementation</h4>
+                <p style="color: #555; margin: 0; line-height: 1.6;">
+                    Built using vanilla JavaScript with FileReader API for local file processing. No external AI APIs or cloud services are used. 
+                    All optimization algorithms run client-side using pattern matching and keyword analysis techniques.
+                </p>
+            </div>
+
+            <div style="text-align: center; margin-top: 25px;">
+                <p style="color: #666; font-size: 0.9rem;">
+                    Questions about privacy or security? Contact: <strong>Tushar Tyagi</strong> | 
+                    <a href="mailto:tyagitushar156@gmail.com" style="color: #667eea;">tyagitushar156@gmail.com</a>
+                </p>
+            </div>
+        </div>
+
         <footer class="footer">
             <p>
                 Developed with ❤️ by <strong>Tushar Tyagi</strong> | 
                 3rd Year AI Student at MIET | 
-                <a href="#" onclick="alert('Add your portfolio/GitHub link here!')">View More Projects</a>
+                <a href="mailto:tyagitushar156@gmail.com">Contact: tyagitushar156@gmail.com</a>
             </p>
         </footer>
     </div>
