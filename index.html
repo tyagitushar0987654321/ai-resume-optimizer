@@ -41,6 +41,32 @@
             opacity: 0.9;
         }
 
+        .creator-info {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 15px 25px;
+            border-radius: 25px;
+            margin: 20px auto;
+            max-width: 400px;
+            text-align: center;
+            color: white;
+            font-size: 0.95rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .creator-info .name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .creator-info .details {
+            opacity: 0.9;
+            font-weight: 500;
+        }
+
         .main-card {
             background: white;
             border-radius: 15px;
@@ -217,6 +243,25 @@
             margin-bottom: 15px;
         }
 
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 15px;
@@ -229,6 +274,15 @@
             .main-card {
                 padding: 25px;
             }
+
+            .creator-info {
+                padding: 12px 20px;
+                font-size: 0.9rem;
+            }
+
+            .creator-info .name {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
@@ -237,6 +291,10 @@
         <header>
             <h1>🤖 AI Resume Optimizer</h1>
             <p class="subtitle">Transform your resume with AI-powered optimization</p>
+            <div class="creator-info">
+                <div class="name">✨ Created by Tushar Tyagi</div>
+                <div class="details">3rd Year AI Student • MIET</div>
+            </div>
         </header>
 
         <div class="main-card">
@@ -285,6 +343,14 @@
                 <p>Get optimized resume and improvement suggestions in seconds</p>
             </div>
         </div>
+
+        <footer class="footer">
+            <p>
+                Developed with ❤️ by <strong>Tushar Tyagi</strong> | 
+                3rd Year AI Student at MIET | 
+                <a href="#" onclick="alert('Add your portfolio/GitHub link here!')">View More Projects</a>
+            </p>
+        </footer>
     </div>
 
     <script src="./server.js"></script>
